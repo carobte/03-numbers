@@ -55,3 +55,15 @@ console.log(Math.cbrt(125)) // raiz cubica
 console.log(Math.cos(0)) // coseno
 console.log(Math.abs(-30.50)) // valor absoluto -> versión positiva del número
 console.log(Math.sign(0)) // retorna 1 (positivo), -1 (negativo) o 0
+console.log(Math.max(48,99,55,66.4,22)) // Mayor
+console.log(Math.min(48,99,55,66.4,22)) // Menor
+console.log(Math.round(3.5)) // Redondea
+console.log(Math.floor(3.5)) // Redondea hacia abajo
+console.log(Math.ceil(2.0001)) // Redondea hacia arriba (3)
+console.log(Math.random()) // Random entre 0 - 1, se multiplica para elegir entre 0 y qué número, y se redondea si se desea
+
+console.log (Math.floor((Math.random() * (7-3+1)) + 3))
+// Formula: Math.round(Math.random() * (max - min) + min;
+// si es con floor, hay que sumar 1 para que el max se incluya
+
+console.log(Math.trunc(-3.54)) // Ignora los decimales, devuelve entero
