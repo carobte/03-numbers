@@ -1,2 +1,2 @@
-# 03 Ejercicios de Number, JS - Riwi
+# 03 Manejo de Números, JS - Riwi
 Manejo de números, JS.
